@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65D5A90F1E06E7E800252566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D5A90E1E06E7E800252566 /* AppDelegate.swift */; };
+		65D5A9111E06E7E800252566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D5A9101E06E7E800252566 /* ViewController.swift */; };
+		65D5A9141E06E7E800252566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D5A9121E06E7E800252566 /* Main.storyboard */; };
+		65D5A9171E06E7E800252566 /* Timaholic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D5A9151E06E7E800252566 /* Timaholic.xcdatamodeld */; };
+		65D5A9191E06E7E800252566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D5A9181E06E7E800252566 /* Assets.xcassets */; };
+		65D5A91C1E06E7E800252566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D5A91A1E06E7E800252566 /* LaunchScreen.storyboard */; };
+		65D5A9271E06E7E900252566 /* TimaholicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D5A9261E06E7E900252566 /* TimaholicTests.swift */; };
+		65D5A9321E06E7E900252566 /* TimaholicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D5A9311E06E7E900252566 /* TimaholicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65D5A9231E06E7E900252566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65D5A9031E06E7E800252566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D5A90A1E06E7E800252566;
+			remoteInfo = Timaholic;
+		};
+		65D5A92E1E06E7E900252566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65D5A9031E06E7E800252566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D5A90A1E06E7E800252566;
+			remoteInfo = Timaholic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65D5A90B1E06E7E800252566 /* Timaholic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timaholic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D5A90E1E06E7E800252566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65D5A9101E06E7E800252566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65D5A9131E06E7E800252566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65D5A9161E06E7E800252566 /* Timaholic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Timaholic.xcdatamodel; sourceTree = "<group>"; };
+		65D5A9181E06E7E800252566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D5A91B1E06E7E800252566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D5A91D1E06E7E800252566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D5A9221E06E7E900252566 /* TimaholicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimaholicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D5A9261E06E7E900252566 /* TimaholicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimaholicTests.swift; sourceTree = "<group>"; };
+		65D5A9281E06E7E900252566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D5A92D1E06E7E900252566 /* TimaholicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimaholicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D5A9311E06E7E900252566 /* TimaholicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimaholicUITests.swift; sourceTree = "<group>"; };
+		65D5A9331E06E7E900252566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65D5A9081E06E7E800252566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D5A91F1E06E7E900252566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D5A92A1E06E7E900252566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65D5A9021E06E7E800252566 = {
+			isa = PBXGroup;
+			children = (
+				65D5A90D1E06E7E800252566 /* Timaholic */,
+				65D5A9251E06E7E900252566 /* TimaholicTests */,
+				65D5A9301E06E7E900252566 /* TimaholicUITests */,
+				65D5A90C1E06E7E800252566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65D5A90C1E06E7E800252566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65D5A90B1E06E7E800252566 /* Timaholic.app */,
+				65D5A9221E06E7E900252566 /* TimaholicTests.xctest */,
+				65D5A92D1E06E7E900252566 /* TimaholicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65D5A90D1E06E7E800252566 /* Timaholic */ = {
+			isa = PBXGroup;
+			children = (
+				65D5A90E1E06E7E800252566 /* AppDelegate.swift */,
+				65D5A9101E06E7E800252566 /* ViewController.swift */,
+				65D5A9121E06E7E800252566 /* Main.storyboard */,
+				65D5A9181E06E7E800252566 /* Assets.xcassets */,
+				65D5A91A1E06E7E800252566 /* LaunchScreen.storyboard */,
+				65D5A91D1E06E7E800252566 /* Info.plist */,
+				65D5A9151E06E7E800252566 /* Timaholic.xcdatamodeld */,
+			);
+			path = Timaholic;
+			sourceTree = "<group>";
+		};
+		65D5A9251E06E7E900252566 /* TimaholicTests */ = {
+			isa = PBXGroup;
+			children = (
+				65D5A9261E06E7E900252566 /* TimaholicTests.swift */,
+				65D5A9281E06E7E900252566 /* Info.plist */,
+			);
+			path = TimaholicTests;
+			sourceTree = "<group>";
+		};
+		65D5A9301E06E7E900252566 /* TimaholicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65D5A9311E06E7E900252566 /* TimaholicUITests.swift */,
+				65D5A9331E06E7E900252566 /* Info.plist */,
+			);
+			path = TimaholicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65D5A90A1E06E7E800252566 /* Timaholic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D5A9361E06E7E900252566 /* Build configuration list for PBXNativeTarget "Timaholic" */;
+			buildPhases = (
+				65D5A9071E06E7E800252566 /* Sources */,
+				65D5A9081E06E7E800252566 /* Frameworks */,
+				65D5A9091E06E7E800252566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timaholic;
+			productName = Timaholic;
+			productReference = 65D5A90B1E06E7E800252566 /* Timaholic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65D5A9211E06E7E900252566 /* TimaholicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D5A9391E06E7E900252566 /* Build configuration list for PBXNativeTarget "TimaholicTests" */;
+			buildPhases = (
+				65D5A91E1E06E7E900252566 /* Sources */,
+				65D5A91F1E06E7E900252566 /* Frameworks */,
+				65D5A9201E06E7E900252566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D5A9241E06E7E900252566 /* PBXTargetDependency */,
+			);
+			name = TimaholicTests;
+			productName = TimaholicTests;
+			productReference = 65D5A9221E06E7E900252566 /* TimaholicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65D5A92C1E06E7E900252566 /* TimaholicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D5A93C1E06E7E900252566 /* Build configuration list for PBXNativeTarget "TimaholicUITests" */;
+			buildPhases = (
+				65D5A9291E06E7E900252566 /* Sources */,
+				65D5A92A1E06E7E900252566 /* Frameworks */,
+				65D5A92B1E06E7E900252566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D5A92F1E06E7E900252566 /* PBXTargetDependency */,
+			);
+			name = TimaholicUITests;
+			productName = TimaholicUITests;
+			productReference = 65D5A92D1E06E7E900252566 /* TimaholicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65D5A9031E06E7E800252566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Sowndharya;
+				TargetAttributes = {
+					65D5A90A1E06E7E800252566 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					65D5A9211E06E7E900252566 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65D5A90A1E06E7E800252566;
+					};
+					65D5A92C1E06E7E900252566 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65D5A90A1E06E7E800252566;
+					};
+				};
+			};
+			buildConfigurationList = 65D5A9061E06E7E800252566 /* Build configuration list for PBXProject "Timaholic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65D5A9021E06E7E800252566;
+			productRefGroup = 65D5A90C1E06E7E800252566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65D5A90A1E06E7E800252566 /* Timaholic */,
+				65D5A9211E06E7E900252566 /* TimaholicTests */,
+				65D5A92C1E06E7E900252566 /* TimaholicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65D5A9091E06E7E800252566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D5A91C1E06E7E800252566 /* LaunchScreen.storyboard in Resources */,
+				65D5A9191E06E7E800252566 /* Assets.xcassets in Resources */,
+				65D5A9141E06E7E800252566 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D5A9201E06E7E900252566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D5A92B1E06E7E900252566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65D5A9071E06E7E800252566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D5A9111E06E7E800252566 /* ViewController.swift in Sources */,
+				65D5A9171E06E7E800252566 /* Timaholic.xcdatamodeld in Sources */,
+				65D5A90F1E06E7E800252566 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D5A91E1E06E7E900252566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D5A9271E06E7E900252566 /* TimaholicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D5A9291E06E7E900252566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D5A9321E06E7E900252566 /* TimaholicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65D5A9241E06E7E900252566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D5A90A1E06E7E800252566 /* Timaholic */;
+			targetProxy = 65D5A9231E06E7E900252566 /* PBXContainerItemProxy */;
+		};
+		65D5A92F1E06E7E900252566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D5A90A1E06E7E800252566 /* Timaholic */;
+			targetProxy = 65D5A92E1E06E7E900252566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65D5A9121E06E7E800252566 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D5A9131E06E7E800252566 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65D5A91A1E06E7E800252566 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D5A91B1E06E7E800252566 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65D5A9341E06E7E900252566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65D5A9351E06E7E900252566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D5A9371E06E7E900252566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Timaholic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sowndharya.Timaholic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65D5A9381E06E7E900252566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Timaholic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sowndharya.Timaholic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		65D5A93A1E06E7E900252566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimaholicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sowndharya.TimaholicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timaholic.app/Timaholic";
+			};
+			name = Debug;
+		};
+		65D5A93B1E06E7E900252566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimaholicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sowndharya.TimaholicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timaholic.app/Timaholic";
+			};
+			name = Release;
+		};
+		65D5A93D1E06E7E900252566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TimaholicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sowndharya.TimaholicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Timaholic;
+			};
+			name = Debug;
+		};
+		65D5A93E1E06E7E900252566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TimaholicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sowndharya.TimaholicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Timaholic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65D5A9061E06E7E800252566 /* Build configuration list for PBXProject "Timaholic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D5A9341E06E7E900252566 /* Debug */,
+				65D5A9351E06E7E900252566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D5A9361E06E7E900252566 /* Build configuration list for PBXNativeTarget "Timaholic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D5A9371E06E7E900252566 /* Debug */,
+				65D5A9381E06E7E900252566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65D5A9391E06E7E900252566 /* Build configuration list for PBXNativeTarget "TimaholicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D5A93A1E06E7E900252566 /* Debug */,
+				65D5A93B1E06E7E900252566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65D5A93C1E06E7E900252566 /* Build configuration list for PBXNativeTarget "TimaholicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D5A93D1E06E7E900252566 /* Debug */,
+				65D5A93E1E06E7E900252566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65D5A9151E06E7E800252566 /* Timaholic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65D5A9161E06E7E800252566 /* Timaholic.xcdatamodel */,
+			);
+			currentVersion = 65D5A9161E06E7E800252566 /* Timaholic.xcdatamodel */;
+			path = Timaholic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65D5A9031E06E7E800252566 /* Project object */;
+}
