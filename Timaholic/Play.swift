@@ -75,5 +75,81 @@ func play() {
     print(timerMinutes)
 }
 
+import UIKit
+
+class ViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("Inside viewdidload of ViewController")
+        performTask()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func performTask() {
+        print("Inside Perform task function")
+        
+        // Set up the URL request
+        let todoEndpoint: String = "https://jsonplaceholder.typicode.com/todos/2"
+        
+        print("String has been setup")
+        
+        guard let url = URL(string: todoEndpoint) else {
+            print("Error: cannot create URL")
+            return
+        }
+        
+        let urlRequest = URLRequest(url: url)
+        
+        print("url Request has been setup")
+        // set up the session
+        let config = URLSessionConfiguration.default
+        let session = URLSession(configuration: config)
+        
+        print("configuration and session have been set up")
+        // make the request
+        let task = session.dataTask(with: urlRequest, completionHandler: { (data, response, error) in
+            guard error == nil else {
+                print("error calling GET on /todos/1")
+                print(error!)
+                return
+            }
+            // make sure we got data
+            guard let responseData = data else {
+                print("Error: did not receive data")
+                return
+            }
+            // parse the result as JSON, since that's what the API provides
+            do {
+                guard let todo = try JSONSerialization.jsonObject(with: responseData, options: []) as? [String: AnyObject] else {
+                    print("error trying to convert data to JSON")
+                    return
+                }
+                // now we have the todo, let's just print it to prove we can access it
+                print("The todo is: " + todo.description)
+                
+                // the todo object is a dictionary
+                // so we just access the title using the "title" key
+                // so check for a title and print it if we have one
+                guard let todoTitle = todo["title"] as? String else {
+                    print("Could not get todo title from JSON")
+                    return
+                }
+                print("The title is: " + todoTitle)
+            } catch  {
+                print("error trying to convert data to JSON")
+                return
+            }
+        })
+        task.resume()
+        
+    }
+    
+}
 
 
